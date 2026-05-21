@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="48" viewBox="0 0 240 48" role="img" aria-label="flatter logo">
+  <rect width="120" height="48" rx="12" fill="#0F172A" />
+  <path d="M20 10 L70 10 L100 60 L50 60 Z" fill="#F4D000" />
+  <circle cx="85" cy="28" r="14" fill="#FFFFFF" />
+  <text x="132" y="32" font-family="Inter, Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">flatter</text>
+</svg>
