@@ -173,7 +173,7 @@ export default function Hero() {
           </div>
 
           <div className="text-center lg:text-right">
-            <h2 className="text-3xl sm:text-[3.4rem] md:text-[3.75rem] font-semibold tracking-[-0.04em] text-[#0F172A]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight text-[#0F172A]">
               {t('hero.startSearchNow')}
             </h2>
           </div>
