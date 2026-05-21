@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #F7F7F5;
+  color: #0F172A;
+}
+
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+input[type='range'].custom-range {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+input[type='range'].custom-range:focus {
+  outline: none;
+}
+
+input[type='range'].custom-range::-webkit-slider-runnable-track {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+input[type='range'].custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 9999px;
+  background: #F4D000;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 8px rgba(244, 208, 0, 0.12);
+  margin-top: -0.3rem;
+}
+
+input[type='range'].custom-range::-moz-range-track {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+input[type='range'].custom-range::-moz-range-thumb {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 9999px;
+  background: #F4D000;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 8px rgba(244, 208, 0, 0.12);
+}
+
+input[type='range'].custom-range::-ms-track {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: transparent;
+  color: transparent;
+}
+
+input[type='range'].custom-range::-ms-fill-lower,
+input[type='range'].custom-range::-ms-fill-upper {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+input[type='range'].custom-range::-ms-thumb {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 9999px;
+  background: #F4D000;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 8px rgba(244, 208, 0, 0.12);
+}
+
+.section-spacing {
+  padding: 4rem 0;
+}
+
+@media (max-width: 768px) {
+  .section-spacing {
+    padding: 2rem 0;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #F4D000, #F2C94C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-shadow:hover {
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
+}
