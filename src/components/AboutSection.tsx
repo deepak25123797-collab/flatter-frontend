@@ -12,7 +12,7 @@ export default function AboutSection() {
           {t('sections.aboutUs')}
         </div>
 
-        <div className="mb-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-start">
+        <div className="mb-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-start text-center lg:text-left">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold tracking-[-0.04em] text-[#0F172A]">
               {t('about.title')}
@@ -22,7 +22,7 @@ export default function AboutSection() {
 
         <div className="rounded-[32px] bg-[#0F172A] p-8 shadow-[0_25px_70px_rgba(15,23,42,0.18)]">
           <div className="grid gap-6 lg:grid-cols-[1fr_auto] items-center">
-            <div className="grid gap-6 lg:grid-cols-[1fr_1fr_1fr]">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr]">
               <div className="space-y-2 rounded-[28px] bg-[#0F172A]/80 p-6 text-white">
                 <p className="text-4xl font-semibold text-[#F4D000]">90k+</p>
                 <p className="text-sm uppercase tracking-[0.16em] text-[#CBD5E1]">{t('about.customers')}</p>

@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 border-b border-white/10 bg-[#090B11]/95 backdrop-blur-xl text-white">
-      <div className="container-custom mx-auto flex max-w-[1200px] items-center justify-between gap-6 rounded-[32px] border border-white/10 bg-[#090B11]/95 px-5 py-4 shadow-[0_24px_80px_rgba(0,0,0,0.35)] backdrop-blur-xl text-white">
+      <div className="container-custom mx-auto flex w-full flex-wrap items-center justify-between gap-4 rounded-[32px] border border-white/10 bg-[#090B11]/95 px-5 py-4 shadow-[0_24px_80px_rgba(0,0,0,0.35)] backdrop-blur-xl text-white md:gap-6">
         <a href="#home" className="flex items-center gap-3">
           <img src={logoUrl} alt="flatter logo" className="h-10 w-auto" />
         </a>

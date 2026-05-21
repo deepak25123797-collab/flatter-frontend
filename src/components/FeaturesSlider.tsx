@@ -49,7 +49,7 @@ export default function FeaturesSlider() {
               </button>
             </div>
 
-            <div className="grid gap-5 lg:grid-cols-3">
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {features.map((feature) => (
                 <div key={feature.id} className="rounded-[28px] border border-white/10 bg-[#0F172A] p-8 text-white">
                   <div className="h-12 w-12 rounded-full bg-white/10 flex items-center justify-center text-[#F4D000] text-lg font-semibold mb-6">

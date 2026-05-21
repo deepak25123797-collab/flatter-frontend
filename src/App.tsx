@@ -1,13 +1,13 @@
 import { useRef } from 'react';
-import Navbar from './components/Navbar.tsx';
-import Hero from './components/Hero.tsx';
-import FeaturesSlider from './components/FeaturesSlider.tsx';
-import Neighborhoods from './components/Neighborhoods.tsx';
-import MortgageCalculator from './components/MortgageCalculator.tsx';
-import AboutSection from './components/AboutSection.tsx';
-import MapSection from './components/MapSection.tsx';
-import Testimonials from './components/Testimonials.tsx';
-import Footer from './components/Footer.tsx';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import FeaturesSlider from './components/FeaturesSlider';
+import Neighborhoods from './components/Neighborhoods';
+import MortgageCalculator from './components/MortgageCalculator';
+import AboutSection from './components/AboutSection';
+import MapSection from './components/MapSection';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
   const topRef = useRef<HTMLDivElement>(null);

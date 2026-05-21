@@ -23,7 +23,7 @@ export default function Footer({ scrollToTop }: FooterProps) {
             </button>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-[1.3fr_0.7fr] items-start">
+          <div className="grid gap-8 lg:grid-cols-[1.3fr_0.7fr] items-start text-center lg:text-left">
             <div>
               <h2 className="text-5xl font-semibold leading-tight tracking-[-0.03em]">
                 Have something to
@@ -38,7 +38,7 @@ export default function Footer({ scrollToTop }: FooterProps) {
           </div>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-[1.9fr_1fr] items-end">
-            <div className="flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#" className="inline-flex rounded-full border border-white/40 px-5 py-2 text-sm text-white transition hover:bg-white/10">
                 {t('footer.about')}
               </a>
@@ -53,7 +53,7 @@ export default function Footer({ scrollToTop }: FooterProps) {
               </a>
             </div>
 
-            <div className="flex flex-col items-start gap-3 lg:items-end">
+            <div className="flex flex-col items-center gap-3 lg:items-end">
               <div className="flex items-center gap-3">
                 <img src={logoUrl} alt="flatter logo" className="h-10 w-auto" />
               </div>

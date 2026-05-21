@@ -43,11 +43,11 @@ export default function Hero() {
               </div>
               <div className="space-y-6">
                 <div className="space-y-5">
-                  <h1 className="text-[3.6rem] sm:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
+                  <h1 className="text-4xl sm:text-[3.75rem] md:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
                     {t('hero.title1')}
                   </h1>
                   <div className="flex flex-wrap items-center gap-4">
-                    <h1 className="text-[3.6rem] sm:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
+                    <h1 className="text-4xl sm:text-[3.75rem] md:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
                       {t('hero.title2')}
                     </h1>
                     <button
@@ -64,11 +64,11 @@ export default function Hero() {
                         <div className="h-10 w-10 rounded-full bg-white flex items-center justify-center text-xl">🚧</div>
                       </div>
                     </button>
-                    <h1 className="text-[3.6rem] sm:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
+                    <h1 className="text-4xl sm:text-[3.75rem] md:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
                       {t('hero.title3')}
                     </h1>
                   </div>
-                  <h1 className="text-[3.6rem] sm:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
+                  <h1 className="text-4xl sm:text-[3.75rem] md:text-[4.5rem] font-semibold leading-[0.95] tracking-[-0.03em]">
                     {t('hero.title4')}
                   </h1>
                 </div>
@@ -90,7 +90,7 @@ export default function Hero() {
                 <img
                   src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1400&q=80"
                   alt="Modern home exterior"
-                  className="h-[380px] w-full object-cover sm:h-[450px]"
+                  className="h-[280px] w-full object-cover sm:h-[360px] md:h-[420px]"
                 />
                 <div className="bg-gradient-to-t from-[#0F172A] via-[#0F172A]/90 to-transparent px-6 py-6">
                   <p className="text-lg font-semibold text-white">{t('hero.uniqueJourney')}</p>
@@ -103,7 +103,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="mt-16 grid gap-8 xl:grid-cols-[1.4fr_0.6fr] items-center">
+        <div className="mt-16 grid gap-8 xl:grid-cols-[1.4fr_0.6fr] items-start">
           <div className="rounded-[32px] bg-[#0F172A] p-6 shadow-[0_30px_60px_rgba(15,23,42,0.18)]">
             <div className="grid gap-6 lg:grid-cols-[1fr_auto] items-center">
               <div className="grid gap-5 md:grid-cols-[260px_minmax(0,1fr)] items-start">
@@ -172,8 +172,8 @@ export default function Hero() {
             )}
           </div>
 
-          <div className="text-right lg:text-right">
-            <h2 className="text-[3rem] sm:text-[3.75rem] font-semibold tracking-[-0.04em] text-[#0F172A]">
+          <div className="text-center lg:text-right">
+            <h2 className="text-3xl sm:text-[3.4rem] md:text-[3.75rem] font-semibold tracking-[-0.04em] text-[#0F172A]">
               {t('hero.startSearchNow')}
             </h2>
           </div>

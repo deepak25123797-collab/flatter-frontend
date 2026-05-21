@@ -73,7 +73,7 @@ export default function Neighborhoods() {
           </h2>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {displayedNeighborhoods.map((neighborhood) => (
             <div key={neighborhood.id} className="rounded-[32px] bg-white shadow-[0_25px_70px_rgba(15,23,42,0.08)] overflow-hidden transition hover:-translate-y-1">
               <div className="h-72 overflow-hidden">

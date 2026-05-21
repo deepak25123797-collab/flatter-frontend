@@ -103,8 +103,8 @@ export default function MortgageCalculator() {
               </div>
             </div>
 
-            <div className="relative rounded-[32px] bg-[#FCFBF8] p-10 shadow-[0_25px_70px_rgba(15,23,42,0.08)]">
-              <div className="flex items-center justify-between">
+            <div className="relative rounded-[32px] bg-[#FCFBF8] p-6 sm:p-8 xl:p-10 shadow-[0_25px_70px_rgba(15,23,42,0.08)]">
+              <div className="flex items-center justify-between gap-4 flex-wrap">
                 <div className="flex items-center gap-3 text-xs uppercase tracking-[0.35em] text-[#94A3B8]">
                   <FaSun className="text-[#94A3B8]" />
                   <span>{t('mortgage.monthlyPayment')}</span>
@@ -114,7 +114,7 @@ export default function MortgageCalculator() {
                 </div>
               </div>
               <div className="mt-6">
-                <p className="text-[3.75rem] leading-tight font-semibold tracking-[-0.04em] text-[#0F172A]">$17,8120.20</p>
+                <p className="text-[3rem] sm:text-[3.75rem] leading-tight font-semibold tracking-[-0.04em] text-[#0F172A]">$17,8120.20</p>
                 <p className="mt-3 text-sm text-[#475569]">{t('mortgage.estimatedPayment')}</p>
               </div>
               <div className="mt-8 rounded-[30px] bg-[#F4F7FF] p-5">

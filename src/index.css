@@ -18,10 +18,22 @@ body {
   color: #0F172A;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container-custom {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .container-custom {
+    padding: 0 1rem;
+  }
 }
 
 button,

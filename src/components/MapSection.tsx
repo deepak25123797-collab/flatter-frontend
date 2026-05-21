@@ -55,7 +55,7 @@ export default function MapSection() {
         </div>
 
         <div className="grid gap-8 lg:grid-cols-[1.7fr_0.9fr]">
-          <div className="overflow-hidden rounded-[32px] shadow-[0_25px_70px_rgba(15,23,42,0.12)] h-[460px]">
+          <div className="overflow-hidden rounded-[32px] shadow-[0_25px_70px_rgba(15,23,42,0.12)] h-[320px] sm:h-[380px] lg:h-[460px]">
             <MapContainer center={mapCenter} zoom={12} scrollWheelZoom className="w-full h-full">
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

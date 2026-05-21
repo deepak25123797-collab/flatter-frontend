@@ -1,6 +1,6 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useRef } from 'react';
-import Navbar from './components/Navbar.tsx';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import FeaturesSlider from './components/FeaturesSlider';
 import Neighborhoods from './components/Neighborhoods';

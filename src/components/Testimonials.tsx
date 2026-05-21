@@ -49,11 +49,11 @@ export default function Testimonials() {
         </div>
 
         <div className="relative rounded-[32px] bg-white p-10 shadow-[0_25px_70px_rgba(15,23,42,0.08)]">
-          <p className="text-3xl leading-relaxed text-[#0F172A] italic">
+          <p className="text-2xl md:text-3xl leading-relaxed text-[#0F172A] italic">
             "{t(testimonial.quoteKey)}"
           </p>
 
-          <div className="mt-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+          <div className="mt-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between text-center lg:text-left">
             <div className="flex items-center gap-4">
               <div className="relative h-16 w-16 overflow-hidden rounded-full border border-[#E5E7EB] bg-[#F4D000]/20">
                 <img
