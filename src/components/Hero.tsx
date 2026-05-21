@@ -84,7 +84,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative pb-12">
             <div className="rounded-[38px] bg-[#0F172A] p-4 shadow-[0_30px_80px_rgba(15,23,42,0.18)]">
               <div className="overflow-hidden rounded-[32px] border border-[#111827] bg-[#111827]">
                 <img
@@ -173,7 +173,7 @@ export default function Hero() {
           </div>
 
           <div className="text-center lg:text-right">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight text-[#0F172A]">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-snug tracking-tight text-[#0F172A] max-w-xl mx-auto lg:mx-0 whitespace-normal">
               {t('hero.startSearchNow')}
             </h2>
           </div>
